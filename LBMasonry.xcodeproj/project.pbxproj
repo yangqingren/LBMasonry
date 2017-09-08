@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E8646FF91F62430F00F0DD80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8646FF81F62430F00F0DD80 /* main.m */; };
+		E8646FFC1F62430F00F0DD80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8646FFB1F62430F00F0DD80 /* AppDelegate.m */; };
+		E8646FFF1F62430F00F0DD80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8646FFE1F62430F00F0DD80 /* ViewController.m */; };
+		E86470021F62430F00F0DD80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86470001F62430F00F0DD80 /* Main.storyboard */; };
+		E86470041F62430F00F0DD80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E86470031F62430F00F0DD80 /* Assets.xcassets */; };
+		E86470071F62430F00F0DD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86470051F62430F00F0DD80 /* LaunchScreen.storyboard */; };
+		E86470121F62430F00F0DD80 /* LBMasonryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86470111F62430F00F0DD80 /* LBMasonryTests.m */; };
+		E864701D1F62430F00F0DD80 /* LBMasonryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E864701C1F62430F00F0DD80 /* LBMasonryUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E864700E1F62430F00F0DD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8646FEC1F62430F00F0DD80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8646FF31F62430F00F0DD80;
+			remoteInfo = LBMasonry;
+		};
+		E86470191F62430F00F0DD80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E8646FEC1F62430F00F0DD80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E8646FF31F62430F00F0DD80;
+			remoteInfo = LBMasonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E8646FF41F62430F00F0DD80 /* LBMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8646FF81F62430F00F0DD80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E8646FFA1F62430F00F0DD80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E8646FFB1F62430F00F0DD80 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E8646FFD1F62430F00F0DD80 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E8646FFE1F62430F00F0DD80 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E86470011F62430F00F0DD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E86470031F62430F00F0DD80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E86470061F62430F00F0DD80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E86470081F62430F00F0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E864700D1F62430F00F0DD80 /* LBMasonryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBMasonryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E86470111F62430F00F0DD80 /* LBMasonryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMasonryTests.m; sourceTree = "<group>"; };
+		E86470131F62430F00F0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E86470181F62430F00F0DD80 /* LBMasonryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBMasonryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E864701C1F62430F00F0DD80 /* LBMasonryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMasonryUITests.m; sourceTree = "<group>"; };
+		E864701E1F62430F00F0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8646FF11F62430F00F0DD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E864700A1F62430F00F0DD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86470151F62430F00F0DD80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E8646FEB1F62430F00F0DD80 = {
+			isa = PBXGroup;
+			children = (
+				E8646FF61F62430F00F0DD80 /* LBMasonry */,
+				E86470101F62430F00F0DD80 /* LBMasonryTests */,
+				E864701B1F62430F00F0DD80 /* LBMasonryUITests */,
+				E8646FF51F62430F00F0DD80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E8646FF51F62430F00F0DD80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8646FF41F62430F00F0DD80 /* LBMasonry.app */,
+				E864700D1F62430F00F0DD80 /* LBMasonryTests.xctest */,
+				E86470181F62430F00F0DD80 /* LBMasonryUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E8646FF61F62430F00F0DD80 /* LBMasonry */ = {
+			isa = PBXGroup;
+			children = (
+				E8646FFA1F62430F00F0DD80 /* AppDelegate.h */,
+				E8646FFB1F62430F00F0DD80 /* AppDelegate.m */,
+				E8646FFD1F62430F00F0DD80 /* ViewController.h */,
+				E8646FFE1F62430F00F0DD80 /* ViewController.m */,
+				E86470001F62430F00F0DD80 /* Main.storyboard */,
+				E86470031F62430F00F0DD80 /* Assets.xcassets */,
+				E86470051F62430F00F0DD80 /* LaunchScreen.storyboard */,
+				E86470081F62430F00F0DD80 /* Info.plist */,
+				E8646FF71F62430F00F0DD80 /* Supporting Files */,
+			);
+			path = LBMasonry;
+			sourceTree = "<group>";
+		};
+		E8646FF71F62430F00F0DD80 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E8646FF81F62430F00F0DD80 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E86470101F62430F00F0DD80 /* LBMasonryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E86470111F62430F00F0DD80 /* LBMasonryTests.m */,
+				E86470131F62430F00F0DD80 /* Info.plist */,
+			);
+			path = LBMasonryTests;
+			sourceTree = "<group>";
+		};
+		E864701B1F62430F00F0DD80 /* LBMasonryUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E864701C1F62430F00F0DD80 /* LBMasonryUITests.m */,
+				E864701E1F62430F00F0DD80 /* Info.plist */,
+			);
+			path = LBMasonryUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E8646FF31F62430F00F0DD80 /* LBMasonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86470211F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonry" */;
+			buildPhases = (
+				E8646FF01F62430F00F0DD80 /* Sources */,
+				E8646FF11F62430F00F0DD80 /* Frameworks */,
+				E8646FF21F62430F00F0DD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBMasonry;
+			productName = LBMasonry;
+			productReference = E8646FF41F62430F00F0DD80 /* LBMasonry.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E864700C1F62430F00F0DD80 /* LBMasonryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86470241F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonryTests" */;
+			buildPhases = (
+				E86470091F62430F00F0DD80 /* Sources */,
+				E864700A1F62430F00F0DD80 /* Frameworks */,
+				E864700B1F62430F00F0DD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E864700F1F62430F00F0DD80 /* PBXTargetDependency */,
+			);
+			name = LBMasonryTests;
+			productName = LBMasonryTests;
+			productReference = E864700D1F62430F00F0DD80 /* LBMasonryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E86470171F62430F00F0DD80 /* LBMasonryUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E86470271F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonryUITests" */;
+			buildPhases = (
+				E86470141F62430F00F0DD80 /* Sources */,
+				E86470151F62430F00F0DD80 /* Frameworks */,
+				E86470161F62430F00F0DD80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E864701A1F62430F00F0DD80 /* PBXTargetDependency */,
+			);
+			name = LBMasonryUITests;
+			productName = LBMasonryUITests;
+			productReference = E86470181F62430F00F0DD80 /* LBMasonryUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E8646FEC1F62430F00F0DD80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "杨庆人";
+				TargetAttributes = {
+					E8646FF31F62430F00F0DD80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					E864700C1F62430F00F0DD80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8646FF31F62430F00F0DD80;
+					};
+					E86470171F62430F00F0DD80 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E8646FF31F62430F00F0DD80;
+					};
+				};
+			};
+			buildConfigurationList = E8646FEF1F62430F00F0DD80 /* Build configuration list for PBXProject "LBMasonry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E8646FEB1F62430F00F0DD80;
+			productRefGroup = E8646FF51F62430F00F0DD80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E8646FF31F62430F00F0DD80 /* LBMasonry */,
+				E864700C1F62430F00F0DD80 /* LBMasonryTests */,
+				E86470171F62430F00F0DD80 /* LBMasonryUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E8646FF21F62430F00F0DD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86470071F62430F00F0DD80 /* LaunchScreen.storyboard in Resources */,
+				E86470041F62430F00F0DD80 /* Assets.xcassets in Resources */,
+				E86470021F62430F00F0DD80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E864700B1F62430F00F0DD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86470161F62430F00F0DD80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E8646FF01F62430F00F0DD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8646FFF1F62430F00F0DD80 /* ViewController.m in Sources */,
+				E8646FFC1F62430F00F0DD80 /* AppDelegate.m in Sources */,
+				E8646FF91F62430F00F0DD80 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86470091F62430F00F0DD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E86470121F62430F00F0DD80 /* LBMasonryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E86470141F62430F00F0DD80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E864701D1F62430F00F0DD80 /* LBMasonryUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E864700F1F62430F00F0DD80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8646FF31F62430F00F0DD80 /* LBMasonry */;
+			targetProxy = E864700E1F62430F00F0DD80 /* PBXContainerItemProxy */;
+		};
+		E864701A1F62430F00F0DD80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E8646FF31F62430F00F0DD80 /* LBMasonry */;
+			targetProxy = E86470191F62430F00F0DD80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E86470001F62430F00F0DD80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86470011F62430F00F0DD80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E86470051F62430F00F0DD80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E86470061F62430F00F0DD80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E864701F1F62430F00F0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E86470201F62430F00F0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E86470221F62430F00F0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBMasonry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangqingren.LBMasonry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E86470231F62430F00F0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LBMasonry/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangqingren.LBMasonry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E86470251F62430F00F0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LBMasonryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangqingren.LBMasonryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBMasonry.app/LBMasonry";
+			};
+			name = Debug;
+		};
+		E86470261F62430F00F0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LBMasonryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangqingren.LBMasonryTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LBMasonry.app/LBMasonry";
+			};
+			name = Release;
+		};
+		E86470281F62430F00F0DD80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBMasonryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangqingren.LBMasonryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBMasonry;
+			};
+			name = Debug;
+		};
+		E86470291F62430F00F0DD80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LBMasonryUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yangqingren.LBMasonryUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LBMasonry;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E8646FEF1F62430F00F0DD80 /* Build configuration list for PBXProject "LBMasonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E864701F1F62430F00F0DD80 /* Debug */,
+				E86470201F62430F00F0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E86470211F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86470221F62430F00F0DD80 /* Debug */,
+				E86470231F62430F00F0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E86470241F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86470251F62430F00F0DD80 /* Debug */,
+				E86470261F62430F00F0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E86470271F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonryUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E86470281F62430F00F0DD80 /* Debug */,
+				E86470291F62430F00F0DD80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E8646FEC1F62430F00F0DD80 /* Project object */;
+}
