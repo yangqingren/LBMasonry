@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DBB81289F8CC2625F0716D1F /* libPods-LBMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28603E751BE93CCF4BB2B316 /* libPods-LBMasonry.a */; };
 		E8646FF91F62430F00F0DD80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8646FF81F62430F00F0DD80 /* main.m */; };
 		E8646FFC1F62430F00F0DD80 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8646FFB1F62430F00F0DD80 /* AppDelegate.m */; };
 		E8646FFF1F62430F00F0DD80 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8646FFE1F62430F00F0DD80 /* ViewController.m */; };
@@ -15,6 +16,7 @@
 		E86470071F62430F00F0DD80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E86470051F62430F00F0DD80 /* LaunchScreen.storyboard */; };
 		E86470121F62430F00F0DD80 /* LBMasonryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E86470111F62430F00F0DD80 /* LBMasonryTests.m */; };
 		E864701D1F62430F00F0DD80 /* LBMasonryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E864701C1F62430F00F0DD80 /* LBMasonryUITests.m */; };
+		E864702F1F62718300F0DD80 /* LBTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E864702E1F62718300F0DD80 /* LBTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D26356BD9E60081F5B67CA4 /* Pods-LBMasonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBMasonry.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBMasonry/Pods-LBMasonry.release.xcconfig"; sourceTree = "<group>"; };
+		28603E751BE93CCF4BB2B316 /* libPods-LBMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBMasonry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B17CB93A5EB7694D25892E /* Pods-LBMasonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBMasonry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBMasonry/Pods-LBMasonry.debug.xcconfig"; sourceTree = "<group>"; };
 		E8646FF41F62430F00F0DD80 /* LBMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8646FF81F62430F00F0DD80 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8646FFA1F62430F00F0DD80 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +56,8 @@
 		E86470181F62430F00F0DD80 /* LBMasonryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBMasonryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E864701C1F62430F00F0DD80 /* LBMasonryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBMasonryUITests.m; sourceTree = "<group>"; };
 		E864701E1F62430F00F0DD80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E864702D1F62718300F0DD80 /* LBTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBTableViewCell.h; sourceTree = "<group>"; };
+		E864702E1F62718300F0DD80 /* LBTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB81289F8CC2625F0716D1F /* libPods-LBMasonry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CA0E2C2A4CD4CEF3633A3C29 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B17CB93A5EB7694D25892E /* Pods-LBMasonry.debug.xcconfig */,
+				0D26356BD9E60081F5B67CA4 /* Pods-LBMasonry.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E8646FEB1F62430F00F0DD80 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +102,8 @@
 				E86470101F62430F00F0DD80 /* LBMasonryTests */,
 				E864701B1F62430F00F0DD80 /* LBMasonryUITests */,
 				E8646FF51F62430F00F0DD80 /* Products */,
+				CA0E2C2A4CD4CEF3633A3C29 /* Pods */,
+				E878AD8F11B0441336AC3A93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +124,8 @@
 				E8646FFB1F62430F00F0DD80 /* AppDelegate.m */,
 				E8646FFD1F62430F00F0DD80 /* ViewController.h */,
 				E8646FFE1F62430F00F0DD80 /* ViewController.m */,
+				E864702D1F62718300F0DD80 /* LBTableViewCell.h */,
+				E864702E1F62718300F0DD80 /* LBTableViewCell.m */,
 				E86470001F62430F00F0DD80 /* Main.storyboard */,
 				E86470031F62430F00F0DD80 /* Assets.xcassets */,
 				E86470051F62430F00F0DD80 /* LaunchScreen.storyboard */,
@@ -140,6 +161,14 @@
 			path = LBMasonryUITests;
 			sourceTree = "<group>";
 		};
+		E878AD8F11B0441336AC3A93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28603E751BE93CCF4BB2B316 /* libPods-LBMasonry.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +176,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E86470211F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonry" */;
 			buildPhases = (
+				223DF721B45CE0A796F7E297 /* [CP] Check Pods Manifest.lock */,
 				E8646FF01F62430F00F0DD80 /* Sources */,
 				E8646FF11F62430F00F0DD80 /* Frameworks */,
 				E8646FF21F62430F00F0DD80 /* Resources */,
+				48A2D98511CE60EAD09C3FF6 /* [CP] Embed Pods Frameworks */,
+				FA0AF52EB42133F6EBD56363 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,11 +300,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		223DF721B45CE0A796F7E297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LBMasonry-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48A2D98511CE60EAD09C3FF6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBMasonry/Pods-LBMasonry-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA0AF52EB42133F6EBD56363 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBMasonry/Pods-LBMasonry-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E8646FF01F62430F00F0DD80 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E864702F1F62718300F0DD80 /* LBTableViewCell.m in Sources */,
 				E8646FFF1F62430F00F0DD80 /* ViewController.m in Sources */,
 				E8646FFC1F62430F00F0DD80 /* AppDelegate.m in Sources */,
 				E8646FF91F62430F00F0DD80 /* main.m in Sources */,
@@ -422,6 +506,7 @@
 		};
 		E86470221F62430F00F0DD80 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B17CB93A5EB7694D25892E /* Pods-LBMasonry.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LBMasonry/Info.plist;
@@ -433,6 +518,7 @@
 		};
 		E86470231F62430F00F0DD80 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D26356BD9E60081F5B67CA4 /* Pods-LBMasonry.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = LBMasonry/Info.plist;
@@ -507,6 +593,7 @@
 				E86470231F62430F00F0DD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E86470241F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonryTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +602,7 @@
 				E86470261F62430F00F0DD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E86470271F62430F00F0DD80 /* Build configuration list for PBXNativeTarget "LBMasonryUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +611,7 @@
 				E86470291F62430F00F0DD80 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
